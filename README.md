@@ -46,7 +46,6 @@ An Aquatic landscape type of drone with visual output
 
     <h2>Downloads</h2>
     <p><a href="Siddivinay_Thamaskar_Resume.pdf" class="btn" download>Download Resume (PDF)</a></p>
-    <p><a href="project-report.pdf" class="btn" download>Download Project Report (PDF)</a></p>
 
     <h2>Contact</h2>
     <p><strong>Email:</strong> siddivinay3101@gmail.com</p>
