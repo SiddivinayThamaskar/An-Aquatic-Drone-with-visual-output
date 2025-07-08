@@ -1,59 +1,60 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Aquatic Drone Project</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
-    header { background: #007acc; color: white; padding: 1rem 2rem; text-align: center; }
-    section { max-width: 800px; margin: 2rem auto; padding: 1rem; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-    h1, h2 { color: #007acc; }
-    .btn {
-      display: inline-block;
-      background: #007acc;
-      color: white;
-      padding: 0.5rem 1rem;
-      margin-top: 1rem;
-      text-decoration: none;
-      border-radius: 4px;
-    }
-    img { max-width: 100%; border-radius: 8px; margin-top: 1rem; }
-    footer { text-align: center; padding: 1rem; font-size: 0.9rem; color: #777; }
+    body { font-family: 'Inter', sans-serif; }
   </style>
 </head>
-<body>
-  <header>
-    <h1>Aquatic Drone Project</h1>
-    <p>By Siddivinay Thamaskar</p>
+<body class="bg-white text-gray-800">
+  <header class="bg-blue-600 text-white py-6 shadow-md">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h1 class="text-3xl font-bold">An Aquatic Drone with Visual Output</h1>
+      <p class="text-sm mt-2">A project by Siddivinay Thamaskar</p>
+    </div>
   </header>
 
-  <section>
-    <h2>Project Overview</h2>
-    <p>This project aims to design and develop an aquatic drone capable of capturing high-resolution visual data of aquatic landscapes. The drone is equipped with advanced imaging systems to monitor and analyze water bodies, providing valuable insights for environmental monitoring, resource management, and conservation efforts.</p>
+  <main class="max-w-4xl mx-auto px-4 py-10 space-y-10">
+    <section>
+      <h2 class="text-2xl font-semibold text-blue-600 mb-2">Project Overview</h2>
+      <p class="leading-relaxed">This project involves designing and developing an aquatic drone capable of capturing high-resolution visual data of aquatic landscapes. The drone includes advanced imaging systems to support environmental monitoring, resource management, and conservation.</p>
+    </section>
 
-    <h2>Key Features</h2>
-    <ul>
-      <li>High-resolution visual output</li>
-      <li>Autonomous navigation in aquatic environments</li>
-      <li>Environmental data collection capabilities</li>
-    </ul>
+    <section>
+      <h2 class="text-2xl font-semibold text-blue-600 mb-2">Key Features</h2>
+      <ul class="list-disc pl-6 space-y-1">
+        <li>High-resolution visual output</li>
+        <li>Autonomous navigation in water environments</li>
+        <li>Real-time environmental data collection</li>
+      </ul>
+    </section>
 
-    <h2>Project Image</h2>
-    <img src="project-image.jpg" alt="Aquatic Drone Prototype" />
+    <section>
+      <h2 class="text-2xl font-semibold text-blue-600 mb-4">Project Image</h2>
+      <img src="project-image.jpg" alt="Aquatic Drone Schematic" class="rounded shadow-md">
+    </section>
 
-    <h2>Downloads</h2>
-    <p><a href="Siddivinay_Thamaskar_Resume.pdf" class="btn" download>Download Resume (PDF)</a></p>
-    <p><a href="project-report.pdf" class="btn" download>Download Project Report (PDF)</a></p>
+    <section>
+      <h2 class="text-2xl font-semibold text-blue-600 mb-2">Downloads</h2>
+      <div class="space-x-4">
+        <a href="Siddivinay_Thamaskar_Resume.pdf" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700" download>Download Resume</a>
+        <a href="project-report.docx" class="inline-block bg-gray-600 text-white px-4 py-2 rounded hover:bg-gray-700" download>Download Project Report</a>
+      </div>
+    </section>
 
-    <h2>Contact</h2>
-    <p><strong>Email:</strong> siddivinay3101@gmail.com</p>
-    <p><strong>Phone:</strong> 8801733570</p>
-  </section>
+    <section>
+      <h2 class="text-2xl font-semibold text-blue-600 mb-2">Contact</h2>
+      <p><strong>Email:</strong> <a href="mailto:siddivinay3101@gmail.com" class="text-blue-600 hover:underline">siddivinay3101@gmail.com</a></p>
+      <p><strong>Phone:</strong> 8801733570</p>
+    </section>
+  </main>
 
-  <footer>
-    <p>&copy; 2025 Siddivinay Thamaskar | All rights reserved.</p>
+  <footer class="text-center text-sm py-4 border-t">
+    <p>&copy; 2025 Siddivinay Thamaskar. All rights reserved.</p>
   </footer>
 </body>
 </html>
